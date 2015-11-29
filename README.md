@@ -1,4 +1,4 @@
-# Lesamnta-LW: Lesamnta-LW reference C99 implementation
+# Lesamnta-LW reference C99 implementation
 
 Lesamnta-LW is a lightweight 256-bit hash function.  The security of Lesamnta-LW is reduced to that of the underlying AES-based block cipher and it is theoretically analyzed for an important application, namely the key-prefix mode.  While most of recently proposed lightweight primitives are hardware-oriented with very small footprints, our main target with Lesamnta-LW is to achieve compact and fast hashing for lightweight application on a wider variety of environments ranging from inexpensive devices to high-end severs at the 2^{120} security level.  As for performance, our primary target CPUs are 8-bit and it is shown that, for short message hashing, Lesamnta-LW offers better tradeoffs between speed and cost on an 8-bit CPU than SHA-256.
 
